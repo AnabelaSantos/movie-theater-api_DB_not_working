@@ -1,0 +1,6 @@
+const { body, check, validationResult } = require("express-validator");
+const router = express.Router();
+
+const { Show } = require("../models/index"); //import the Show model
+
+module.exports = router;
